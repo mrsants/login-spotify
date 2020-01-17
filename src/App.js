@@ -33,10 +33,14 @@ function App() {
         </Wrapper>
         <StyledForm>
         <Wrapper>
-          <StyledInput/>
+          <StyledInput
+            placeholder="Endereço de e-mail ou nome de usuário"
+          />
           </Wrapper>
           <Wrapper>
-          <StyledInput/>
+          <StyledInput 
+             placeholder="Senha"
+          />
           </Wrapper>
         </StyledForm>
       </Content>
